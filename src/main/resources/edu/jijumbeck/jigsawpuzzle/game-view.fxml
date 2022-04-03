@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<GridPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.jijumbeck.jigsawpuzzle.GameViewController">
+    <padding>
+        <Insets bottom="30" left="30" right="30" top="30"/>
+    </padding>
+
+    <Label fx:id="scoreTextLabel" GridPane.columnIndex="0" GridPane.rowIndex="0"
+           text="score"/>
+
+    <Button fx:id="restartGameButton" GridPane.columnIndex="2" GridPane.rowIndex="0"
+            text="Restart"/>
+    <Button fx:id="endGameButton" GridPane.columnIndex="3" GridPane.rowIndex="0"
+            text="End"/>
+    <Button fx:id="exitGameButton" GridPane.columnIndex="4" GridPane.rowIndex="0"
+            text="Exit"/>
+
+    <Label fx:id="timeTextLabel" GridPane.columnIndex="1" GridPane.rowIndex="1"
+           text="00:00"/>
+
+
+</GridPane>
